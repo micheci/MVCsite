@@ -8,18 +8,33 @@
     <link rel="stylesheet" href="/style.css">
 </head>
 <body>
-    <h1>MVC model</h1>
-    <p>This page will be deticated to explain the MVC(Model-View-Controller) frameworkby explaing eash part of the arhitecture </p>     
-    <p>By Clicking this button I will travel to the router then to the controller which will take me to the views</p>
-    <form action="/controller">
-    <button id="btn">Controller</button>
-    </form>
-    <form action="/model">
-    <button>Model</button>
-    </form>
-    <form action="/view">
-    <button>Views</button>
-    </form>
+    <h1>MVC models</h1>
+    <button class="button" onclick="darkMode()">Dark/Light Toggle</button>
+    <p>This page will be deticated to explain the MVC(Model-View-Controller) framework by explaning eash part of the arhitecture </p>     
+    <p>By Clicking this button I will travel to the router then to the controller which will render the views</p>
+   
+  <div class="flex">
+        <form action="/controller">
+            <button id="btn">Controller</button>
+        </form>
+        <form action="/model">
+            <button>Model</button>
+        </form>
+        <form action="/view">
+            <button>Views</button>
+        </form>
+    </div>
+
+    <img src="mvcdiagram.png" class="image" alt="MVC diagram">
+
+  
+
+    <footer class="footer">
+        <p>Citations:Model–view–controller. (n.d.). Retrieved September 12, 2022, from https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93controller </p>
+    </footer>
+
+
+
 
     <script src="/main.js"></script>
 </body>

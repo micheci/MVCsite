@@ -1,14 +1,36 @@
 h1{
-    color:black;
     font-size: 50px;
-    background-color: rgb(247, 247, 247);
+    
     text-align: center;
 }
-p{
-    color:red;
-    font-size: 25px;
-    background-color: black;
+body{ height:100vh; margin:0; }
+body {
+    background-color: rgb(28, 32, 46);
+    color:white;
+    display:flex; 
+    flex-direction:column;
 }
-body{
-    background-color: gray;
+.dark-mode{
+    background-color: rgb(255, 255, 255);
+    color:black
+}
+.button{
+    border-radius: 15%;
+    width: 10%;
+}
+.footer{
+    text-align: center;
+    
+    margin-top:auto; 
+}
+.flex{
+    display: flex;
+    justify-content: space-around;
+}
+.image{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    padding: 4rem;
 }
